@@ -5,8 +5,6 @@ void main(){
     int mes;
     printf("Ingrese un numero del 1 al 12 \n");
     scanf("%d", &mes);
-
-    for(mes = 1; mes <= 12; mes++){
     switch (mes){
 
     case 1 : printf("enero\n");
@@ -37,7 +35,6 @@ void main(){
     default: printf("Ingrese un numero valido\n");
         break;
     }
-    
-    }
-            system("pause");
+
+    system("pause");
 }
